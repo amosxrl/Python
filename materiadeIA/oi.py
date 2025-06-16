@@ -26,15 +26,32 @@ problema
 
 def criaNo(estado_inicial, noPai=None, custo=0, acao=None, profundidade=0):
   no={}
-  no ['estado_inicial=estado_inicial'] = estado_inicial
+  no ['estado_inicial'] = estado_inicial
   no ['noPai'] = noPai
   no ['custo'] = custo
   no ['acao'] = acao
   no ['profundidade'] = profundidade
   return no
+#espandir e filhos
+def espaco(no, problema):
+  filhos = 'no filhos'
+  return filhos
 
 def buscaEmArvore(problema, borda):
   borda.append(criaNo(problema['estado_inicial']))
-  print(borda)
+  solucao = []
 
-buscaEmArvore(problema, borda)
+  while solucao == []:
+    if len(borda) == 0:
+      raise Exception('Sem Solucao')
+      break
+
+    no = borda.pop(0)
+    if problema['estado_objetivo'] == no['estado_inicial']:
+      solucao.append(no)
+      return solucao
+    borda.append(espaco(no, problema))
+    return borda
+  
+
+solucao = buscaEmArvore(problema, borda)
