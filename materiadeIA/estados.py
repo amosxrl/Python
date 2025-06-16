@@ -1,9 +1,10 @@
+#   Eu me perdi no meio do caminho.
 from collections import deque
 
 # --------------------------- PROBLEMA ------------------------
-#   • estado_inicial  : nó de partida
-#   • estado_objetivo : nó que queremos alcançar
-#   • Acoes           : dicionário cujos valores = [origem, destino, custo]
+#   estado_inicial  : nó de partida
+#   estado_objetivo : nó que queremos alcançar
+#   Acoes           : dicionário cujos valores = [origem, destino, custo]
 # ------------------------------------------------------------
 
 problema = {
@@ -41,8 +42,8 @@ def criaNo(estado, noPai=None, custo=0, acao=None, profundidade=0):
     }
 
 # ---------------------- EXPANSÃO DE NÓ -----------------------
-# Percorre todas as ações do problema; se a origem coincide com
-# o estado atual, gera um filho correspondente ao destino.
+#   Percorre todas as ações do problema; se a origem coincide com
+#   o estado atual, gera um filho correspondente ao destino.
 # ------------------------------------------------------------
 def expandeNo(no, problema):
     filhos = []
@@ -58,9 +59,9 @@ def expandeNo(no, problema):
     return filhos
 
 # ---------------------- BUSCA EM LARGURA --------------------
-# Utiliza uma fila FIFO (deque) para explorar por níveis.
-# visitados  : evita re‑expandir um mesmo estado
-# ordem_visita: guarda todos os estados na ordem exata de visita
+#   Utiliza uma fila FIFO (deque) para explorar por níveis.
+#   visitados  : evita re‑expandir um mesmo estado
+#   ordem_visita: guarda todos os estados na ordem exata de visita
 # ------------------------------------------------------------
 def buscaEmArvore(problema):
     # inicializa fila com o nó da raiz
@@ -117,3 +118,7 @@ def buscaEmArvore(problema):
 if __name__ == "__main__":
     # Executa a busca e mostra tudo na tela
     buscaEmArvore(problema)
+
+# ------------------------------------------------------------
+# --------------------- FIM DO CÓDIGO ------------------------
+# ------------------------------------------------------------

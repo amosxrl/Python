@@ -1,7 +1,7 @@
 # O código volta vazio, mas não mostra erro
 problema = {
-    'estado_inicial':'A',
-    'estado_objetivo':'B',
+    'estado_inicial':'S',
+    'estado_objetivo':'P',
     'Acoes':{
       1: ['B', 'S', 320],
       2: ['S', 'B', 320],
