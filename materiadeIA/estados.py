@@ -1,18 +1,6 @@
-# ------------------------------------------------------------
-# Busca em largura (Breadth‑First Search) com prevenção de ciclos
-# e registro da ordem em que cada estado é visitado.
-#
-# Este exemplo usa um grafo de cidades (representadas por siglas)
-# e encontra o menor número de passos entre o estado inicial 'A'
-# e o estado‑objetivo 'S'.  As ações (arestas) são bidirecionais
-# e trazem também o custo da viagem, embora a BFS só utilize
-# a estrutura do grafo (não o custo) para decidir a ordem.
-# ------------------------------------------------------------
-
-from collections import deque   # deque → pop/append em O(1) para fila FIFO
+from collections import deque
 
 # --------------------------- PROBLEMA ------------------------
-# ‘problema’ reúne:
 #   • estado_inicial  : nó de partida
 #   • estado_objetivo : nó que queremos alcançar
 #   • Acoes           : dicionário cujos valores = [origem, destino, custo]
@@ -37,7 +25,6 @@ problema = {
 }
 
 # ---------------------- ESTRUTURA DE NÓ ----------------------
-# Cada nó é um dicionário com:
 #   estado       : vértice atual
 #   noPai        : referência ao nó que o gerou
 #   custo        : custo acumulado (não usado pela BFS, mas útil p/ outros algoritmos)
