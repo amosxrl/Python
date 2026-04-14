@@ -4,6 +4,9 @@ Comandos Python
 git config --global user.name "Amós"
 git config --global user.email "seuemail@email.com"
 
+### Comandos necessarios
+
+
 ## Executar e Testar Código
 python <script>.py
 python3 <script>.py
