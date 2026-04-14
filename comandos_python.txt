@@ -1,0 +1,26 @@
+Comandos Python
+
+## Login python3
+git config --global user.name "Amós"
+git config --global user.email "seuemail@email.com"
+
+## Executar e Testar Código
+python <script>.py
+python3 <script>.py
+
+## Instalar Pacotes
+pip install <pacote>
+pip install --upgrade <pacote> # Atualiza um pacote
+
+## Ambientes Virtuais
+python3 -m venv <nome-do-ambiente>
+source <nome-do-ambiente>/bin/activate # Ativa o ambiente virtual
+deactivate # Desativa o ambiente virtual
+
+## Listar Pacotes Instalados
+pip list
+pip freeze # Lista pacotes com suas versões
+
+## Requisitos
+pip freeze > requirements.txt # Salva pacotes e versões em um arquivo
+pip install -r requirements.txt # Instala pacotes a partir de um arquivo
