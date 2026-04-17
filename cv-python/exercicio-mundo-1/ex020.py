@@ -4,6 +4,7 @@ n2 = str(input('Segundo Nome: '))
 n3 = str(input('Terceiro Nome: '))
 n4 = str(input('Quarto Nome: '))
 lista = [n1, n2, n3, n4]
-random.shuffle(lista)
+# random.shuffle() é uma função do módulo random que embaralha os elementos de uma lista de forma aleatória.
+shuffle(lista)
 print('A ordem de apresentação será ')
 print(lista)
