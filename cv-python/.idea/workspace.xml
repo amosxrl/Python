@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae783889-92ad-45d0-a9c3-fdb9a30475f6" name="Changes" comment="" />
+    <list default="true" id="ae783889-92ad-45d0-a9c3-fdb9a30475f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-mundo-1/ex000.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-mundo-1/ex000.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-mundo-1/ex001.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-mundo-1/ex001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-mundo-1/ex021.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-mundo-1/ex021.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercicio-mundo-1/ex021pa.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-mundo-1/audio/ex021pa.mp3" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "assignee": "amosxrl"
+    }
+  ],
+  "lastFilter": {
+    "assignee": "amosxrl"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/amosxrl/Python.git",
+    "accountId": "0d4c18d3-6ca4-4726-88e1-9217ddd67ab0"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
   &quot;fromUser&quot;: false
@@ -27,6 +49,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.aula06.executor": "Run",
     "Python.ex000.executor": "Run",
+    "Python.ex001.executor": "Run",
+    "Python.ex021.executor": "Run",
     "Python.salario.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -46,6 +70,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercicio-mundo-1/audio" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,6 +91,7 @@
       <updated>1776709872514</updated>
       <workItem from="1776709873892" duration="138000" />
       <workItem from="1776797280321" duration="1773000" />
+      <workItem from="1776967261387" duration="1952000" />
     </task>
     <servers />
   </component>
@@ -72,5 +102,7 @@
     <SUITE FILE_PATH="coverage/cv_python$ex000.coverage" NAME="ex000 Coverage Results" MODIFIED="1776797369076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicio-mundo-1" />
     <SUITE FILE_PATH="coverage/cv_python$salario.coverage" NAME="salario Coverage Results" MODIFIED="1776798283687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/extra" />
     <SUITE FILE_PATH="coverage/cv_python$aula06.coverage" NAME="aula06 Coverage Results" MODIFIED="1776798130840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cv_python$ex021.coverage" NAME="ex021 Coverage Results" MODIFIED="1776969204376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicio-mundo-1" />
+    <SUITE FILE_PATH="coverage/cv_python$ex001.coverage" NAME="ex001 Coverage Results" MODIFIED="1776968041579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicio-mundo-1" />
   </component>
 </project>

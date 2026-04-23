@@ -1,3 +1,2 @@
 nome = str(input('Escreva seu nome:'))
-print('Olá', nome, '!')
-print('Olá, Mundo!')
+print('Olá', nome, '! E Olá, Mundo!')
