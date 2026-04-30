@@ -5,8 +5,8 @@ print('Olá', nome,'de', idade, 'anos de idade e peso', peso,'. Bem vindo ao pyt
 print('-----------------------------------------------------------------------------')
 
 inteiro = input('Valor a digitar: ')
-print(inteiro.isalnum())
-print(inteiro.isalpha())
+print(" ", inteiro.isalnum())
+print(" ", inteiro.isalpha())
 #"int"
 #"float"
 #"bool"
